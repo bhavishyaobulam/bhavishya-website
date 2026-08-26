@@ -1,0 +1,6 @@
+import { FiBookOpen, FiCpu, FiHeart, FiLayers } from 'react-icons/fi'
+
+const facts = [[FiBookOpen, 'B. Tech AI & Data Science'], [FiLayers, 'REVA University'], [FiHeart, 'Creating New Things'], [FiCpu, 'Aspiring Technology Professional']]
+export default function About() {
+  return <section className="section-shell section" id="about"><div className="section-heading reveal"><span className="section-index">01 / 07</span><h2>A little about<br /><em>what drives me.</em></h2></div><div className="about-grid"><div className="about-lead reveal"><p className="kicker">Curious by nature. Focused by choice.</p><p>I am O. Bhavishya Lakshmi, a passionate Computer Science student pursuing a B. Tech degree in Artificial Intelligence and Data Science at REVA University. I enjoy learning new technologies, programming, and building creative projects.</p><p>I am interested in developing my skills in Python, C, Advanced C, Artificial Intelligence, and Data Science. Every project is a chance to ask better questions and make something useful.</p></div><div className="fact-grid reveal delay-1">{facts.map(([Icon, text]) => <div className="fact-card" key={text}><Icon /><span>{text}</span></div>)}</div></div></section>
+}
