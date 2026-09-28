@@ -16,3 +16,16 @@ npm run build
 ```
 
 Replace the placeholder GitHub, LinkedIn, project, and certificate URLs in the component data when the real links are available.
+## Projects
+
+### 2D Graphics Editor
+
+A menu-driven graphics editor developed using C.
+
+### Library Management System
+
+A system developed to manage library books and related information efficiently.
+
+### Personal Portfolio Website
+
+A responsive portfolio website developed using React.js to showcase my profile, skills, projects, and contact information.
